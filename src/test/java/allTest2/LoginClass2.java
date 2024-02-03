@@ -25,6 +25,7 @@ public class LoginClass2 {
 			dr.get(config2.getUrl());
 			dr.manage().window().maximize();
 			dr.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+			
 					
 	}
 
@@ -37,6 +38,7 @@ public class LoginClass2 {
 			
 			user.sendKeys(config2.getUser());
 			pass.sendKeys(config2.getpassword());
+			System.out.println("new commit");
 				
 		}
 		
